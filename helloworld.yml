@@ -1,0 +1,7 @@
+---
+- name: placeholder playbook
+  hosts: all
+  tasks:
+  - name: say hello
+    ansible.buildin.debug:
+      msg: "Hello World"
